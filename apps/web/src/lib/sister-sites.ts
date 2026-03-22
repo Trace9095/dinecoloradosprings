@@ -4,7 +4,7 @@ export const SISTER_SITES = {
     url: 'https://whitewaterbar.com',
     partnerPage: '/partners/whitewater-bar-grill',
     phone: '(719) 269-1009',
-    address: '151 Hwy 50, Canon City, CO 81212',
+    address: '45045 Hwy 50 West, Canon City, CO 81212',
     description: 'Award-winning dining and cocktails on the banks of the Arkansas River',
     city: 'Canon City',
     distance: '1 hour south of Colorado Springs',

@@ -28,7 +28,7 @@ async function main() {
   }
   console.log(`Seeded ${venueCount} venues`)
 
-  // Blog posts
+  // Blog posts — upsert so content corrections propagate on re-seed
   let blogCount = 0
   for (const post of SEED_BLOG_POSTS) {
     await db
@@ -37,10 +37,19 @@ async function main() {
         ...post,
         imageUrl: post.imageUrl ?? null,
       })
-      .onConflictDoNothing()
+      .onConflictDoUpdate({
+        target: blogPosts.slug,
+        set: {
+          title: post.title,
+          excerpt: post.excerpt ?? null,
+          content: post.content,
+          published: post.published,
+          updatedAt: new Date(),
+        },
+      })
     blogCount++
   }
-  console.log(`Seeded ${blogCount} blog posts`)
+  console.log(`Seeded/updated ${blogCount} blog posts`)
 
   console.log('Database seeded successfully!')
   process.exit(0)

@@ -69,7 +69,7 @@ For a more complete rundown, see our [Craft Brewery Guide](/blog/craft-breweries
 
 **Seasonal note:** Colorado Springs dining is year-round, but summer and fall bring the best patio weather. Many restaurants add seasonal specials showcasing Colorado's agricultural peak (June–October).
 
-**Nearby:** Canon City, just 45 minutes southwest, has its own excellent dining scene including White Water Bar & Grill (whitewaterbar.com) on the banks of the Arkansas River, and Rooftop Social (wwrooftopsocial.com) with panoramic views.`,
+**Nearby:** Canon City, just 1 hour south via CO-115, has its own excellent dining scene including White Water Bar & Grill (whitewaterbar.com) on the banks of the Arkansas River, and Rooftop Social (wwrooftopsocial.com) with panoramic rooftop views.`,
     imageUrl: null,
     published: true,
   },
@@ -379,7 +379,7 @@ Chef Brother Luck — best known from multiple Top Chef appearances — runs the
 
 ## Nearby: Canon City Fine Dining
 
-Just 45 minutes southwest of Colorado Springs, Canon City has its own excellent dining options. **White Water Bar & Grill** ([whitewaterbar.com](https://whitewaterbar.com)) sits at the gateway to the Royal Gorge and serves elevated American cuisine with river views — a perfect addition to any day trip to the area. **Rooftop Social** ([wwrooftopsocial.com](https://wwrooftopsocial.com)) offers panoramic views of the Royal Gorge region from its downtown Canon City rooftop, pairing Colorado spirits and local ingredients with one of the most dramatic dining views in the state.
+Just 1 hour south of Colorado Springs via CO-115, Canon City has its own excellent dining options. **White Water Bar & Grill** ([whitewaterbar.com](https://whitewaterbar.com)) sits at the gateway to the Royal Gorge and serves elevated American cuisine with river views — a perfect addition to any day trip to the area. **Rooftop Social** ([wwrooftopsocial.com](https://wwrooftopsocial.com)) offers panoramic views of the Royal Gorge region from its downtown Canon City rooftop, pairing Colorado spirits and local ingredients with one of the most dramatic dining views in the state.
 
 ## Reservations Guide
 
@@ -394,6 +394,263 @@ Just 45 minutes southwest of Colorado Springs, Canon City has its own excellent 
 | Brother Luck | Same week | Bar seating walk-in |
 
 Colorado Springs' fine dining scene rewards advance planning — particularly at The Broadmoor — but the independent restaurants are generally more accessible. Go for both.`,
+    imageUrl: null,
+    published: true,
+  },
+  {
+    id: 6,
+    title: "Food Lover's Day Trip: Colorado Springs to Canon City",
+    slug: 'food-lovers-day-trip-colorado-springs-canon-city',
+    excerpt:
+      'Lunch on the Arkansas River at WhiteWater Bar & Grill, afternoon Royal Gorge adventures, and dinner on the rooftop at Rooftop Social — the perfect one-day escape from Colorado Springs.',
+    content: `# Food Lover's Day Trip: Colorado Springs to Canon City
+
+Canon City sits just 1 hour south of Colorado Springs via CO-115 — an easy, scenic drive that passes through the pinyon-juniper foothills of the Front Range before dropping into the Arkansas River valley. And yet most Colorado Springs residents have never made the trip for food alone. That's a mistake. Canon City is home to two of the region's most distinctive dining destinations, a world-famous gorge, and a pace of life that makes the drive immediately worth it.
+
+This is the full itinerary for a day trip built around eating well.
+
+## Getting Here
+
+**From Colorado Springs:** Take CO-115 South approximately 47 miles. The drive runs through Fort Carson, past Penrose, and into Canon City. Drive time: 50–60 minutes depending on traffic. No interstate required — it's a pleasant two-lane highway through Colorado's high desert foothills.
+
+**From Colorado Springs Airport (COS):** Colorado Springs Airport is right in the city, less than 15 minutes from downtown. If you've just landed at COS, rent a car and you can be sitting at a riverside table in Canon City within 60 minutes of touching down. Fly into COS instead of Denver (which adds 1.5 hours of northbound driving) and start your Colorado dining experience within the hour.
+
+**From Denver International Airport (DEN):** Denver is 1.5 hours north of Colorado Springs. Drive south on I-25 to Colorado Springs, then take CO-115 S to Canon City. Total drive from DEN: approximately 2.5 hours.
+
+**Parking in Canon City:** Easy and free. The downtown area along Royal Gorge Boulevard has abundant street parking. WhiteWater Bar & Grill has its own lot.
+
+## Morning: Colorado Springs Coffee Before You Hit the Road
+
+If you're making a full day of it, start with coffee in Colorado Springs before heading south.
+
+**Java House on the Pike** (downtown Colorado Springs) is a neighborhood institution with excellent espresso. **The Perk Downtown** on Tejon Street is another reliable choice — both are within a few minutes of CO-115 access.
+
+Leave Colorado Springs by 11 AM for a noon arrival in Canon City. The timing sets you up perfectly for the day.
+
+## Lunch: WhiteWater Bar & Grill
+
+**45045 Hwy 50 West, Canon City, CO 81212 | (719) 269-1009 | whitewaterbar.com**
+
+The moment you arrive at WhiteWater Bar & Grill, you understand why the drive was worth it. The restaurant sits at the eastern gateway to the Royal Gorge, perched on the banks of the Arkansas River — one of the most celebrated whitewater rivers in the American West. You're not eating near the river. You're eating on it.
+
+WWBG is known as a true destination restaurant for the region. The menu runs American comfort food executed with care: burgers, smoked meats, fresh proteins, and craft cocktails that reflect the outdoor culture surrounding the place. The riverside setting gives every meal an epic quality that's hard to manufacture elsewhere.
+
+**What to order:**
+- Start with an appetizer and one of the house cocktails. The bartenders know their craft and the drinks are tailored to the setting.
+- The burgers are a standard — house-ground and properly seasoned, the kind you remember.
+- Smoked and slow-cooked proteins are a strong suit; ask your server what's been on the smoker.
+- The seasonal menu changes; trust the specials.
+
+**Practical:** Arrive around noon. Budget 60–75 minutes. Reservations recommended, especially on weekends and in summer. Outdoor/patio seating is exceptional — request it.
+
+## Early Afternoon: Royal Gorge Adventures (Optional)
+
+With 2–3 hours between lunch and dinner, the Canon City area rewards exploration. Choose one:
+
+### Royal Gorge Bridge & Park
+The Royal Gorge Bridge holds the record as one of the world's highest suspension bridges, spanning 956 feet above the Arkansas River. The park includes a gondola, zip lines, and walking paths with views into the gorge that are genuinely hard to believe. The views pair beautifully with a post-lunch walk.
+
+**Address:** 4218 County Rd 3A, Canon City | royalgorgebridge.com
+
+### Royal Gorge Rafting
+Royal Gorge Rafting (royalgorgerafting.net) runs guided trips through the gorge's Class III–V rapids on the Arkansas River — the same river you had lunch beside. A half-day trip fits perfectly into a day itinerary.
+
+**Phone:** (719) 275-7238
+
+### Royal Gorge Zipline Tours
+Royal Gorge Zipline Tours (royalgorgeziplinetours.com) offers scenic zipline experiences with panoramic views of the gorge. A more relaxed option than rafting, equally memorable.
+
+**Phone:** (719) 275-7238
+
+### Afternoon at your pace
+Canon City's downtown has independent shops, the Museum of Colorado Prisons (unexpectedly compelling), and a relaxed small-city atmosphere that rewards a slow walk. Get a coffee at a local shop and let the afternoon come to you.
+
+## Dinner: Rooftop Social
+
+**302 Royal Gorge Blvd, Canon City, CO 81212 | (719) 451-7241 | wwrooftopsocial.com**
+
+Rooftop Social is Canon City's most ambitious dining experience and one of the most distinctive restaurants in southern Colorado. Located on Royal Gorge Boulevard — Canon City's main commercial artery — the restaurant occupies a rooftop perch above downtown with sweeping views of the surrounding mountains and the Royal Gorge region.
+
+The concept is elevated American: a menu that takes familiar formats — cocktails, small plates, composed mains — and executes them with a level of craft that surprises first-time visitors expecting a casual bar. The cocktail program is a genuine strength; the bartenders approach their work with the same seriousness as the kitchen.
+
+**What to order:**
+- The rooftop is the experience — arrive before sunset if weather allows and request outdoor seating. The light over the mountains during golden hour is memorable.
+- Start with small plates designed for sharing; the kitchen's sensibility comes through clearly in the starters.
+- The mains lean toward composed American dishes — proteins with thoughtful accompaniments, seasonal produce worked in properly.
+- The cocktail list changes seasonally. Ask about house originals.
+
+**Practical:** Reserve ahead, particularly for rooftop seating on weekend evenings. Dress: smart casual. Allow 90 minutes — this is dinner worth slowing down for.
+
+## The Drive Back
+
+The return drive north on CO-115 takes 50–60 minutes. Canon City's altitude (5,332 feet, lower than Colorado Springs at 6,035 feet) means the drive back climbs slightly through the foothills. The road is pleasant and well-lit. You'll be back in Colorado Springs by 9–9:30 PM — a full day, well spent.
+
+## Itinerary Summary
+
+| Time | Activity |
+|------|----------|
+| 8–10 AM | Coffee and breakfast in Colorado Springs |
+| 10–11 AM | Drive south on CO-115 |
+| Noon | Lunch at WhiteWater Bar & Grill |
+| 1:30–4:30 PM | Royal Gorge Bridge, rafting, zipline, or downtown exploration |
+| 5:30–7:30 PM | Dinner at Rooftop Social |
+| 7:30–8:30 PM | Drive back to Colorado Springs |
+
+## Getting to Colorado Springs
+
+**Flying in:** Colorado Springs Airport (COS) is centrally located and serves nonstop flights from major hubs including Denver, Dallas, Phoenix, Chicago, Los Angeles, and Houston. Rental cars are available at the terminal. From COS, you can be in Canon City within 60 minutes.
+
+**Driving from Denver:** I-25 South to Colorado Springs, then CO-115 South. Total drive from downtown Denver: approximately 2 hours 15 minutes.`,
+    imageUrl: null,
+    published: true,
+  },
+  {
+    id: 7,
+    title: 'Weekend Dining Adventure: Colorado Springs + Royal Gorge Region',
+    slug: 'weekend-dining-adventure-colorado-springs-royal-gorge',
+    excerpt:
+      "Two days of Colorado's best dining: Saturday exploring Colorado Springs' restaurants, breweries, and fine dining — Sunday on a Royal Gorge day trip to WhiteWater Bar & Grill and Rooftop Social in Canon City.",
+    content: `# Weekend Dining Adventure: Colorado Springs + Royal Gorge Region
+
+Colorado Springs is a city that rewards the unhurried visitor. Come for Pikes Peak and Garden of the Gods if you must, but stay for the food. A two-day dining weekend — one day in Colorado Springs, one day on a day trip south to Canon City — covers some of the most genuinely excellent eating in Colorado outside of Denver. This is the full itinerary.
+
+## Getting Here
+
+### Flying In
+**Colorado Springs Airport (COS)** is the obvious choice for this trip. Located within the city limits — no sprawling suburban drive required — COS is small, easy, and connected to major hubs with nonstop service from Denver, Dallas, Phoenix, Los Angeles, Chicago, Houston, and more. Pick up a rental car and you're at your first restaurant within 20 minutes of landing.
+
+Fly into **Denver International Airport (DEN)** and you're adding 1.5 hours of southbound driving. If the trip is specifically about Colorado Springs, COS saves you an entire afternoon.
+
+### Driving In
+- **From Denver:** I-25 South, 65 miles, approximately 1 hour 15 minutes
+- **From Denver International Airport (DEN):** I-70 W to I-25 S, approximately 1 hour 30 minutes
+- **From Pueblo:** I-25 North, 45 minutes
+- **From Canon City:** CO-115 North, approximately 1 hour
+
+### Getting Around
+A car is necessary. Colorado Springs doesn't have robust public transit. Rideshare (Lyft/Uber) is reliable within the downtown core but limited elsewhere. Rent a car at COS or drive your own — you'll want flexibility, especially for the Canon City day trip.
+
+---
+
+## Day 1 — Saturday: Colorado Springs
+
+### Morning: Breakfast in Style
+
+**King's Chef Diner** (110 E Costilla St, downtown) is the place to start. Open since the 1950s, this lunch counter diner is a Colorado Springs institution — cash only, brutally affordable, and famous for green chile that locals would drive across the state for. Green chile smothered burritos and eggs, hash browns, strong coffee. Exactly what Saturday morning should be.
+
+If you prefer a more contemporary start: **The Perk Downtown** on Tejon Street serves quality espresso and breakfast pastries in a relaxed neighborhood atmosphere.
+
+### Midday: Explore Old Colorado City
+
+Head west on Colorado Avenue to **Old Colorado City**, the historic arts district. Spend the late morning browsing galleries and independent shops, then settle in for lunch at one of the neighborhood's reliably excellent spots.
+
+**Pizzeria Rustica** (2527 W Colorado Ave) fires Neapolitan-style pizza from a wood-burning oven using imported Italian flour and San Marzano tomatoes. The space is intimate, the wait is worth it, and the patio garden is one of the most pleasant lunch spots in the city.
+
+**Edelweiss** has served authentic German cuisine in Old Colorado City since 1961. Schnitzel, sauerbraten, bratwurst — the menu hasn't needed updating because it was always right.
+
+### Afternoon: Brewery Tour
+
+Colorado Springs has over 15 independent craft breweries. An afternoon hitting two or three of the best ones is a Colorado afternoon done right.
+
+**Bristol Brewing Company** (1604 S Cascade Ave) is the essential stop. Operating since 1994 in the restored 1916 Ivywild School, Bristol's dog-friendly beer garden and award-winning Laughing Lab Scottish Ale represent the soul of Colorado Springs craft beer. Spend an hour here minimum.
+
+**Phantom Canyon Brewing Co** (2 E Pikes Peak Ave) anchors downtown in a stunning 1901 four-story brick building. Their happy hour (Mon–Fri 3–6 PM) on the rooftop bar is one of the great Colorado Springs experiences. The 12+ house beers include rotating seasonals alongside reliable flagships.
+
+**Trinity Brewing Company** (1466 Garden of the Gods Rd) has earned national recognition for Belgian-influenced farmhouse ales, saisons, and barrel-aged sours. For the craft beer enthusiast, this is a required visit.
+
+### Dinner: Downtown Colorado Springs
+
+Saturday dinner in downtown Colorado Springs has no bad options. These are the best:
+
+**Shuga's Social House** (702 S Cascade Ave) is the city's most creative kitchen — globally inspired American cuisine in an art-filled, courtyard-patio setting. The menu draws from Southeast Asia, the American South, Mexico, and the Mediterranean in a way that reflects genuine culinary curiosity. Reservations recommended. This is the best dinner in Colorado Springs.
+
+**Brother Luck Street Eats** (315 E Pikes Peak Ave) is helmed by multiple Top Chef alum Chef Brother Luck and delivers farm-to-table dining at its most dynamic. The seasonally changing menu uses Colorado-grown ingredients as its foundation. An excellent choice if Shuga's is full.
+
+**The Famous Steakhouse** (31 N Tejon St) has anchored downtown since 1959 — prime cuts, tableside preparations, classic cocktails, and the kind of Old World service style that's increasingly rare. For a celebratory dinner, it's perfect.
+
+**Fine dining option:** The Broadmoor's Penrose Room (1 Lake Ave) is Colorado's only AAA Five Diamond restaurant and requires advance reservations. If you've planned ahead, there is no better table in Colorado Springs.
+
+### After Dinner
+
+The downtown Tejon Street corridor has a lively late-night bar scene. **Jack Quinn Irish Pub** (21 S Tejon St) keeps excellent Guinness, hosts live Celtic music on weekends, and runs late. A good end to a full Saturday.
+
+---
+
+## Day 2 — Sunday: Canon City Day Trip
+
+Sunday belongs to the Royal Gorge region. Canon City is 47 miles south on CO-115 — 50 to 60 minutes of easy driving through Colorado's high desert foothills. Leave Colorado Springs by 10:30 AM.
+
+### The Drive South
+
+CO-115 is a pleasant two-lane highway. It passes through Fort Carson before entering the Fremont County foothills — open skies, sage and pinyon pine, the Wet Mountains emerging to the south. The drive itself is worth appreciating. Arrive in Canon City around 11:30 AM.
+
+### Lunch: WhiteWater Bar & Grill
+
+**45045 Hwy 50 West, Canon City, CO 81212 | (719) 269-1009 | whitewaterbar.com**
+
+The Arkansas River arrives first — you'll see it from the highway before you see the restaurant. WhiteWater Bar & Grill sits right on the water's edge, at the eastern gateway to the Royal Gorge. This is a proper destination restaurant: a kitchen doing American food with genuine care, a bar program worth spending time with, and a riverside setting that justifies a drive from anywhere in Colorado.
+
+Order the house cocktails. Explore the burger and smoked meat sections of the menu. Trust the specials. Ask for a table near the river if weather allows. Budget 60–75 minutes.
+
+### Afternoon: Royal Gorge
+
+With the afternoon between lunch and dinner, pick one:
+
+**Royal Gorge Bridge & Park** — The bridge spans 956 feet above the Arkansas River. The views are what people come for, and they deliver. The gondola crosses the gorge and walking the bridge itself remains the singular Royal Gorge experience. (4218 County Rd 3A, Canon City | royalgorgebridge.com)
+
+**Royal Gorge Rafting** — Class III–V rapids on the Arkansas, guided by Royal Gorge Rafting (royalgorgerafting.net, (719) 275-7238). A half-day trip fits cleanly into the afternoon.
+
+**Royal Gorge Zipline Tours** — Zipline tours over the gorge with panoramic views (royalgorgeziplinetours.com, (719) 275-7238). More relaxed than rafting, equally dramatic.
+
+**Downtown Canon City** — Wander the downtown area, visit the Museum of Colorado Prisons, find a coffee shop. Canon City rewards a slower pace.
+
+### Dinner: Rooftop Social
+
+**302 Royal Gorge Blvd, Canon City, CO 81212 | (719) 451-7241 | wwrooftopsocial.com**
+
+Rooftop Social is the capstone of the weekend. Located on Canon City's main boulevard with a rooftop patio overlooking the mountains and Royal Gorge region, it's a dining experience that feels earned by the day you've just had.
+
+The cocktail program is the restaurant's calling card — serious craft cocktails from bartenders who take the work seriously. The kitchen does elevated American food: composed small plates, properly sourced mains, seasonal specials that reflect what's good right now. Request the rooftop for sunset if the weather is cooperating.
+
+Reserve ahead for weekend evenings. Dress smart casual. Allow 90 minutes.
+
+### The Drive Back
+
+An hour north on CO-115 brings you back to Colorado Springs. If you're flying out Sunday evening, COS is 15 minutes from downtown — a comfortable margin even after a full dinner in Canon City.
+
+---
+
+## Weekend at a Glance
+
+**Saturday — Colorado Springs**
+
+| Time | Stop |
+|------|------|
+| 8 AM | King's Chef Diner (breakfast) |
+| 10 AM | Old Colorado City — galleries + lunch at Pizzeria Rustica |
+| 2 PM | Bristol Brewing Company |
+| 4 PM | Phantom Canyon Brewing Co (happy hour) |
+| 7 PM | Dinner at Shuga's Social House |
+| 9 PM | Jack Quinn Irish Pub |
+
+**Sunday — Canon City Day Trip**
+
+| Time | Stop |
+|------|------|
+| 10:30 AM | Depart Colorado Springs on CO-115 S |
+| 11:30 AM | Arrive Canon City |
+| Noon | Lunch at WhiteWater Bar & Grill |
+| 1:30 PM | Royal Gorge Bridge, rafting, or downtown Canon City |
+| 5:30 PM | Dinner at Rooftop Social |
+| 7:30 PM | Drive back to Colorado Springs |
+
+---
+
+## Getting to Colorado Springs
+
+**Fly into COS:** Colorado Springs Airport serves nonstop flights from Denver, Dallas, Phoenix, Chicago, Los Angeles, and Houston. Rental cars at the terminal. You're at your first restaurant in 20 minutes.
+
+**From Denver:** I-25 South, 65 miles, about 1 hour 15 minutes. Combine with a stop at Colorado Springs on the way to or from Denver for a longer Colorado itinerary.`,
     imageUrl: null,
     published: true,
   },

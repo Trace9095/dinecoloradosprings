@@ -157,7 +157,7 @@ export default function WhiteWaterPartnerPage() {
           <div className="flex flex-wrap gap-x-6 gap-y-3">
             <div className="flex items-center gap-2 text-sm" style={{ color: '#9E9080' }}>
               <MapPin size={14} style={{ color: '#D4A853' }} />
-              <span>151 Hwy 50, Canon City, CO 81212</span>
+              <span>45045 Hwy 50 West, Canon City, CO 81212</span>
             </div>
             <div className="flex items-center gap-2 text-sm" style={{ color: '#9E9080' }}>
               <Phone size={14} style={{ color: '#D4A853' }} />
