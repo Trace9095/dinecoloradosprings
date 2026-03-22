@@ -1,0 +1,25 @@
+{
+  "expo": {
+    "name": "Dine Colorado Springs",
+    "slug": "dinecoloradosprings",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "dark",
+    "backgroundColor": "#0D1117",
+    "splash": {
+      "backgroundColor": "#0D1117"
+    },
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.epicai.dinecoloradosprings"
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#0D1117"
+      },
+      "package": "com.epicai.dinecoloradosprings"
+    }
+  }
+}

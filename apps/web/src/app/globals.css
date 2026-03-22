@@ -1,0 +1,129 @@
+@import "tailwindcss";
+
+@theme inline {
+  /* === Dine Colorado Springs — Unique Foodie Palette === */
+  /* Deep wine red + warm gold on dark charcoal — restaurant-forward, not corporate */
+  --color-background: #151515;
+  --color-foreground: #F0EAE2;
+  --color-wine: #722F37;
+  --color-wine-light: #8B3A45;
+  --color-wine-dark: #5A2229;
+  --color-gold: #D4A853;
+  --color-gold-light: #E8C97A;
+  --color-gold-dark: #B8923F;
+  --color-surface: #1E1B18;
+  --color-surface-hover: #252118;
+  --color-border: #3A332A;
+  --color-muted: #9E9080;
+  --color-destructive: #E05252;
+  --color-success: #4CAF6B;
+  --color-warning: #E3A341;
+
+  /* shadcn/ui aliases */
+  --color-card: var(--color-surface);
+  --color-card-foreground: var(--color-foreground);
+  --color-popover: var(--color-surface);
+  --color-popover-foreground: var(--color-foreground);
+  --color-primary: var(--color-wine);
+  --color-primary-foreground: #F0EAE2;
+  --color-secondary: var(--color-surface-hover);
+  --color-secondary-foreground: var(--color-foreground);
+  --color-accent: var(--color-gold);
+  --color-accent-foreground: #151515;
+  --color-input: var(--color-surface-hover);
+  --color-ring: var(--color-gold);
+
+  /* Typography — Geist v1.7.0 */
+  --font-sans: var(--font-geist-sans), ui-sans-serif, system-ui, sans-serif;
+  --font-mono: var(--font-geist-mono), ui-monospace, "Cascadia Code", monospace;
+
+  --radius: 0.5rem;
+}
+
+* {
+  border-color: theme(--color-border);
+  box-sizing: border-box;
+}
+
+html {
+  color-scheme: dark;
+}
+
+body {
+  background-color: theme(--color-background);
+  color: theme(--color-foreground);
+  font-family: theme(--font-sans);
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* Brand utilities */
+.text-gold  { color: theme(--color-gold); }
+.bg-gold    { background-color: theme(--color-gold); }
+.border-gold { border-color: theme(--color-gold); }
+.text-wine  { color: theme(--color-wine); }
+.bg-wine    { background-color: theme(--color-wine); }
+
+:focus-visible {
+  outline: 2px solid theme(--color-gold);
+  outline-offset: 2px;
+}
+
+/* Scrollbar */
+::-webkit-scrollbar { width: 6px; height: 6px; }
+::-webkit-scrollbar-track { background: theme(--color-background); }
+::-webkit-scrollbar-thumb { background: theme(--color-border); border-radius: 3px; }
+::-webkit-scrollbar-thumb:hover { background: theme(--color-muted); }
+
+/* Animations */
+@keyframes fade-in {
+  from { opacity: 0; transform: translateY(4px); }
+  to   { opacity: 1; transform: translateY(0); }
+}
+@keyframes slide-up {
+  from { opacity: 0; transform: translateY(12px); }
+  to   { opacity: 1; transform: translateY(0); }
+}
+@keyframes shimmer {
+  from { background-position: -200% 0; }
+  to   { background-position: 200% 0; }
+}
+
+.animate-fade-in  { animation: fade-in 0.2s ease-out both; }
+.animate-slide-up { animation: slide-up 0.3s ease-out both; }
+
+/* Hero wine gradient */
+.bg-wine-gradient {
+  background: linear-gradient(135deg, #5A2229 0%, #722F37 50%, #151515 100%);
+}
+
+/* Gold shimmer text for hero */
+.text-shimmer {
+  background: linear-gradient(90deg, #D4A853, #E8C97A, #D4A853);
+  background-size: 200% auto;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  animation: shimmer 3s linear infinite;
+}
+
+/* Venue card hover */
+.venue-card {
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+.venue-card:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 8px 32px rgba(212, 168, 83, 0.10);
+}
+
+/* Tier badges */
+.badge-sponsored {
+  background: linear-gradient(135deg, #D4A853, #B8923F);
+  color: #151515;
+  font-weight: 600;
+}
+.badge-premium {
+  background: transparent;
+  color: #D4A853;
+  border: 1px solid #D4A853;
+}
