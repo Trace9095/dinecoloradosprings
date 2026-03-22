@@ -34,6 +34,7 @@ const navLinks = [
   { href: '/cafes', label: 'Cafes' },
   { href: '/food-trucks', label: 'Food Trucks' },
   { href: '/happy-hour', label: 'Happy Hour' },
+  { href: '/day-trips', label: 'Day Trips' },
   { href: '/blog', label: 'Blog' },
 ]
 

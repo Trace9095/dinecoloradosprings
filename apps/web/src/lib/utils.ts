@@ -27,6 +27,7 @@ export function categoryLabel(cat: string): string {
     'food-truck': 'Food Truck',
     'fine-dining': 'Fine Dining',
     bar: 'Bar & Pub',
+    adventure: 'Adventure',
   }
   return map[cat] ?? cat
 }
