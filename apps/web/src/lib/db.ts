@@ -6,7 +6,9 @@ let _db: ReturnType<typeof drizzle<typeof schema>> | null = null
 
 export function getDb() {
   if (!_db) {
-    _db = drizzle(neon(process.env['DATABASE_URL']!), { schema })
+    const url = process.env['DATABASE_URL']
+    if (!url) throw new Error('DATABASE_URL is not set')
+    _db = drizzle(neon(url), { schema })
   }
   return _db
 }

@@ -13,6 +13,7 @@ const exploreLinks = [
 const businessLinks = [
   { href: '/pricing', label: 'Pricing' },
   { href: '/add-listing', label: 'Add Your Business' },
+  { href: '/manage', label: 'Manage Listing' },
 ]
 
 export function Footer() {

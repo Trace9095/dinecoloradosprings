@@ -1,7 +1,11 @@
 import { NextRequest, NextResponse } from 'next/server'
-import { getStripe, STRIPE_PRICES } from '@/lib/stripe'
+import { getStripe, STRIPE_PRICES, isStripeConfigured } from '@/lib/stripe'
 
 export async function POST(req: NextRequest) {
+  if (!isStripeConfigured()) {
+    return NextResponse.json({ error: 'Stripe is not configured' }, { status: 503 })
+  }
+
   const { tier, venueSlug, email, businessName } = await req.json()
 
   if (!tier || !email) {
