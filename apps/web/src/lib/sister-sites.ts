@@ -5,7 +5,7 @@ export const SISTER_SITES = {
     partnerPage: '/partners/whitewater-bar-grill',
     phone: '(719) 269-1009',
     address: '45045 Hwy 50 West, Canon City, CO 81212',
-    description: 'Award-winning dining and cocktails on the banks of the Arkansas River',
+    description: 'Undefeated Flavors. Legendary Portions. Premier dining on Hwy 50 West in Canon City.',
     city: 'Canon City',
     distance: '1 hour south of Colorado Springs',
   },
@@ -38,6 +38,7 @@ export const SISTER_SITES = {
   royalGorgeVacationRentals: {
     name: 'Royal Gorge Vacation Rentals',
     url: 'https://royalgorgevacationrentals.com',
+    phone: '(719) 275-7238',
     description: 'Riverside yurts, cabins, and glamping near the Royal Gorge',
     city: 'Canon City',
     distance: '1 hour south',

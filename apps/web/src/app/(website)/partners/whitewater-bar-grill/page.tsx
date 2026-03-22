@@ -6,11 +6,11 @@ import { MapPin, Phone, Clock, Star, ExternalLink, ArrowLeft, Utensils, Beer, Mu
 export const metadata: Metadata = {
   title: 'WhiteWater Bar & Grill — Featured Partner | Dine Colorado Springs',
   description:
-    'Award-winning dining and cocktails on the Arkansas River in Canon City, CO. Just 1 hour south of Colorado Springs. World-class food, live music, and riverfront atmosphere.',
+    'Undefeated Flavors. Legendary Portions. Premier dining on Hwy 50 West in Canon City, CO. Just 1 hour south of Colorado Springs. World-class food, live music, and an epic Royal Gorge atmosphere.',
   openGraph: {
     title: 'WhiteWater Bar & Grill — Featured Partner',
     description:
-      'Award-winning dining and cocktails on the Arkansas River. 1 hour south of Colorado Springs.',
+      'Undefeated Flavors. Legendary Portions. Premier dining on Hwy 50 West in Canon City. 1 hour south of Colorado Springs.',
   },
 }
 
@@ -18,7 +18,7 @@ const HIGHLIGHTS = [
   { icon: Utensils, label: 'Award-winning cuisine' },
   { icon: Beer, label: 'Craft cocktails & local brews' },
   { icon: Music, label: 'Live music events' },
-  { icon: MapPin, label: 'Riverfront atmosphere' },
+  { icon: MapPin, label: 'Epic Royal Gorge location' },
 ]
 
 const MENU_SECTIONS = [
@@ -109,8 +109,9 @@ export default function WhiteWaterPartnerPage() {
           </div>
 
           <p className="text-lg sm:text-xl leading-relaxed max-w-2xl mb-8" style={{ color: '#C8B99A' }}>
-            Award-winning dining and handcrafted cocktails perched on the banks of the Arkansas River.
-            The ultimate destination for unforgettable meals, live music, and Colorado's most scenic riverside atmosphere.
+            Undefeated Flavors. Legendary Portions. Award-winning dining and handcrafted cocktails
+            on Hwy 50 West in Canon City — at the gateway to the Royal Gorge. Unforgettable meals,
+            live music, and an atmosphere as epic as the landscape surrounding it.
           </p>
 
           {/* CTAs */}
@@ -197,16 +198,15 @@ export default function WhiteWaterPartnerPage() {
             </h2>
             <div className="space-y-3 text-sm leading-relaxed" style={{ color: '#9E9080' }}>
               <p>
-                Nestled on the banks of the Arkansas River in Canon City, WhiteWater Bar &amp; Grill is
-                the crown jewel of riverside dining in the Royal Gorge region. Whether you&apos;re fueling
-                up before a rafting adventure or celebrating after conquering the rapids, WWBG delivers an
-                unforgettable experience with every visit.
+                Located on Hwy 50 West at the eastern gateway to the Royal Gorge, WhiteWater Bar &amp; Grill
+                is the crown jewel of Canon City dining. Whether you&apos;re fueling up before a rafting
+                adventure or celebrating after conquering the rapids, WWBG delivers an unforgettable
+                experience with every visit.
               </p>
               <p>
                 The menu celebrates Colorado&apos;s bold flavors — from slow-smoked brisket and fall-off-the-bone
-                ribs to fresh Colorado trout and inventive craft cocktails inspired by the river right outside
-                your window. Every dish is crafted with care and served in a setting that feels as epic as the
-                landscape surrounding it.
+                ribs to fresh Colorado trout and inventive craft cocktails. Every dish is crafted with care
+                and served in a setting that feels as epic as the Royal Gorge landscape surrounding it.
               </p>
               <p>
                 Live music, seasonal specials, and a team that treats every guest like family make WhiteWater

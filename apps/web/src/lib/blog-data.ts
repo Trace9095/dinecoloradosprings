@@ -69,7 +69,7 @@ For a more complete rundown, see our [Craft Brewery Guide](/blog/craft-breweries
 
 **Seasonal note:** Colorado Springs dining is year-round, but summer and fall bring the best patio weather. Many restaurants add seasonal specials showcasing Colorado's agricultural peak (June–October).
 
-**Nearby:** Canon City, just 1 hour south via CO-115, has its own excellent dining scene including White Water Bar & Grill (whitewaterbar.com) on the banks of the Arkansas River, and Rooftop Social (wwrooftopsocial.com) with panoramic rooftop views.`,
+**Nearby:** Canon City, just 1 hour south via CO-115, has its own excellent dining scene including White Water Bar & Grill (whitewaterbar.com) on Hwy 50 West, and Rooftop Social (wwrooftopsocial.com) with panoramic rooftop views.`,
     imageUrl: null,
     published: true,
   },
@@ -402,7 +402,7 @@ Colorado Springs' fine dining scene rewards advance planning — particularly at
     title: "Food Lover's Day Trip: Colorado Springs to Canon City",
     slug: 'food-lovers-day-trip-colorado-springs-canon-city',
     excerpt:
-      'Lunch on the Arkansas River at WhiteWater Bar & Grill, afternoon Royal Gorge adventures, and dinner on the rooftop at Rooftop Social — the perfect one-day escape from Colorado Springs.',
+      'Lunch at WhiteWater Bar & Grill on Hwy 50 West, afternoon Royal Gorge adventures, and dinner on the rooftop at Rooftop Social — the perfect one-day escape from Colorado Springs.',
     content: `# Food Lover's Day Trip: Colorado Springs to Canon City
 
 Canon City sits just 1 hour south of Colorado Springs via CO-115 — an easy, scenic drive that passes through the pinyon-juniper foothills of the Front Range before dropping into the Arkansas River valley. And yet most Colorado Springs residents have never made the trip for food alone. That's a mistake. Canon City is home to two of the region's most distinctive dining destinations, a world-famous gorge, and a pace of life that makes the drive immediately worth it.
@@ -413,7 +413,7 @@ This is the full itinerary for a day trip built around eating well.
 
 **From Colorado Springs:** Take CO-115 South approximately 47 miles. The drive runs through Fort Carson, past Penrose, and into Canon City. Drive time: 50–60 minutes depending on traffic. No interstate required — it's a pleasant two-lane highway through Colorado's high desert foothills.
 
-**From Colorado Springs Airport (COS):** Colorado Springs Airport is right in the city, less than 15 minutes from downtown. If you've just landed at COS, rent a car and you can be sitting at a riverside table in Canon City within 60 minutes of touching down. Fly into COS instead of Denver (which adds 1.5 hours of northbound driving) and start your Colorado dining experience within the hour.
+**From Colorado Springs Airport (COS):** Colorado Springs Airport is right in the city, less than 15 minutes from downtown. If you've just landed at COS, rent a car and you can be dining at WhiteWater Bar & Grill in Canon City within 60 minutes of touching down. Fly into COS instead of Denver (which adds 1.5 hours of northbound driving) and start your Colorado dining experience within the hour.
 
 **From Denver International Airport (DEN):** Denver is 1.5 hours north of Colorado Springs. Drive south on I-25 to Colorado Springs, then take CO-115 S to Canon City. Total drive from DEN: approximately 2.5 hours.
 
@@ -431,9 +431,9 @@ Leave Colorado Springs by 11 AM for a noon arrival in Canon City. The timing set
 
 **45045 Hwy 50 West, Canon City, CO 81212 | (719) 269-1009 | whitewaterbar.com**
 
-The moment you arrive at WhiteWater Bar & Grill, you understand why the drive was worth it. The restaurant sits at the eastern gateway to the Royal Gorge, perched on the banks of the Arkansas River — one of the most celebrated whitewater rivers in the American West. You're not eating near the river. You're eating on it.
+The moment you arrive at WhiteWater Bar & Grill, you understand why the drive was worth it. The restaurant sits at the eastern gateway to the Royal Gorge on Hwy 50 West — with an atmosphere as epic as the landscape surrounding it.
 
-WWBG is known as a true destination restaurant for the region. The menu runs American comfort food executed with care: burgers, smoked meats, fresh proteins, and craft cocktails that reflect the outdoor culture surrounding the place. The riverside setting gives every meal an epic quality that's hard to manufacture elsewhere.
+WWBG is known as a true destination restaurant for the region. The menu runs American comfort food executed with care: burgers, smoked meats, fresh proteins, and craft cocktails that reflect the outdoor culture surrounding the place. The setting — at the gateway to the Royal Gorge — gives every meal an epic quality that's hard to manufacture elsewhere.
 
 **What to order:**
 - Start with an appetizer and one of the house cocktails. The bartenders know their craft and the drinks are tailored to the setting.
@@ -453,7 +453,7 @@ The Royal Gorge Bridge holds the record as one of the world's highest suspension
 **Address:** 4218 County Rd 3A, Canon City | royalgorgebridge.com
 
 ### Royal Gorge Rafting
-Royal Gorge Rafting (royalgorgerafting.net) runs guided trips through the gorge's Class III–V rapids on the Arkansas River — the same river you had lunch beside. A half-day trip fits perfectly into a day itinerary.
+Royal Gorge Rafting (royalgorgerafting.net) runs guided trips through the gorge's Class III–V rapids on the Arkansas River. A half-day trip fits perfectly into a day itinerary.
 
 **Phone:** (719) 275-7238
 
@@ -588,9 +588,9 @@ CO-115 is a pleasant two-lane highway. It passes through Fort Carson before ente
 
 **45045 Hwy 50 West, Canon City, CO 81212 | (719) 269-1009 | whitewaterbar.com**
 
-The Arkansas River arrives first — you'll see it from the highway before you see the restaurant. WhiteWater Bar & Grill sits right on the water's edge, at the eastern gateway to the Royal Gorge. This is a proper destination restaurant: a kitchen doing American food with genuine care, a bar program worth spending time with, and a riverside setting that justifies a drive from anywhere in Colorado.
+WhiteWater Bar & Grill sits at the eastern gateway to the Royal Gorge on Hwy 50 West — a proper destination restaurant: a kitchen doing American food with genuine care, a bar program worth spending time with, and an epic setting that justifies a drive from anywhere in Colorado.
 
-Order the house cocktails. Explore the burger and smoked meat sections of the menu. Trust the specials. Ask for a table near the river if weather allows. Budget 60–75 minutes.
+Order the house cocktails. Explore the burger and smoked meat sections of the menu. Trust the specials. Ask for a patio table if weather allows. Budget 60–75 minutes.
 
 ### Afternoon: Royal Gorge
 

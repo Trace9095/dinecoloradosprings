@@ -5,7 +5,7 @@ const DINING_PARTNERS = [
     name: 'White Water Bar & Grill',
     url: 'https://whitewaterbar.com',
     partnerPage: '/partners/whitewater-bar-grill',
-    desc: 'Award-winning dining & cocktails on the Arkansas River',
+    desc: 'Undefeated Flavors. Legendary Portions. Premier dining on Hwy 50 West.',
     tag: 'Dining',
   },
   {
