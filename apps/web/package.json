@@ -14,7 +14,6 @@
     "db:seed": "tsx scripts/seed.ts"
   },
   "dependencies": {
-    "@dinecoloradosprings/shared": "*",
     "@neondatabase/serverless": "^0.10.4",
     "@vercel/analytics": "^1.4.1",
     "@vercel/speed-insights": "^1.1.0",
