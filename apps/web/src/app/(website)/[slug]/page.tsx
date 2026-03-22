@@ -18,6 +18,7 @@ import {
   Instagram,
 } from 'lucide-react'
 import { categoryLabel, priceLabel, parseFeatures } from '@/lib/utils'
+import { DayTripBanner } from '../_components/day-trip-banner'
 export const dynamic = 'force-dynamic'
 
 interface PageProps {
@@ -393,6 +394,7 @@ export default async function VenuePage({ params }: PageProps) {
           </div>
         </div>
       </div>
+      <DayTripBanner />
     </>
   )
 }

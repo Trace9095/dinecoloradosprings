@@ -5,6 +5,7 @@ import type { Venue } from '@/db/schema'
 import { VenueCard } from '../_components/venue-card'
 import { SearchBar } from '../_components/search-bar'
 import { Truck, SlidersHorizontal } from 'lucide-react'
+import { DayTripBanner } from '../_components/day-trip-banner'
 
 export default function FoodTrucksPage() {
   const [allVenues, setAllVenues] = useState<Venue[]>([])
@@ -102,6 +103,7 @@ export default function FoodTrucksPage() {
           </>
         )}
       </div>
+      <DayTripBanner />
     </div>
   )
 }

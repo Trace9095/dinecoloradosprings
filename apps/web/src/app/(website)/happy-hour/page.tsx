@@ -5,6 +5,7 @@ import { venues } from '@/db/schema'
 import { eq, and } from 'drizzle-orm'
 import { VenueCard } from '../_components/venue-card'
 import { Clock, Info } from 'lucide-react'
+import { DayTripBanner } from '../_components/day-trip-banner'
 import { parseFeatures } from '@/lib/utils'
 
 export const metadata: Metadata = {
@@ -115,6 +116,7 @@ export default async function HappyHourPage() {
           </>
         )}
       </div>
+      <DayTripBanner />
     </div>
   )
 }

@@ -6,6 +6,7 @@ import type { Venue } from '@/db/schema'
 import { VenueCard } from '../_components/venue-card'
 import { SearchBar } from '../_components/search-bar'
 import { UtensilsCrossed, SlidersHorizontal } from 'lucide-react'
+import { DayTripBanner } from '../_components/day-trip-banner'
 
 const CUISINES = [
   'All',
@@ -129,6 +130,7 @@ export default function RestaurantsPage() {
           </>
         )}
       </div>
+      <DayTripBanner />
     </div>
   )
 }
