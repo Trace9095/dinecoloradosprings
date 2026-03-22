@@ -5,32 +5,15 @@ import { Check, Star, Zap } from 'lucide-react'
 export const metadata: Metadata = {
   title: 'Pricing — List Your Colorado Springs Restaurant',
   description:
-    'Add your Colorado Springs restaurant, brewery, or cafe to our directory. Free basic listing or upgrade to Premium ($99/mo) or Sponsored ($199/mo) for featured placement.',
+    'Get your Colorado Springs restaurant, brewery, or cafe featured in our directory. Premium ($99/mo) for featured placement or Sponsored ($199/mo) for top visibility.',
   openGraph: {
     title: 'Pricing — List Your Colorado Springs Restaurant',
     description:
-      'Free, Premium, and Sponsored listing tiers for Colorado Springs restaurants and bars.',
+      'Premium and Sponsored listing tiers for Colorado Springs restaurants and bars. Starting at $99/mo.',
   },
 }
 
 const tiers = [
-  {
-    name: 'Free',
-    price: '$0',
-    period: '/mo',
-    description: 'Get your business found with a basic listing.',
-    cta: 'Get Started Free',
-    href: '/add-listing?tier=free',
-    highlight: false,
-    icon: Star,
-    features: [
-      'Basic listing — name, address, phone, hours',
-      'Category and neighborhood listing',
-      'Searchable in our directory',
-      'Price range display',
-      'Link to claim and upgrade anytime',
-    ],
-  },
   {
     name: 'Premium',
     price: '$99',
@@ -41,7 +24,6 @@ const tiers = [
     highlight: true,
     icon: Zap,
     features: [
-      'Everything in Free',
       'Featured placement in category listings',
       'Photo gallery (up to 10 photos)',
       'Website and booking link buttons',
@@ -49,6 +31,7 @@ const tiers = [
       'Full business description',
       'Priority customer support',
       'Silver "Premium" badge',
+      'Name, address, phone, hours listing',
     ],
   },
   {
@@ -83,13 +66,13 @@ export default function PricingPage() {
           </h1>
           <p className="text-[#8B949E] text-lg">
             Get in front of thousands of Colorado Springs diners searching for
-            their next meal. Start free, upgrade when ready.
+            their next meal. Starting at $99/mo — no hidden fees.
           </p>
         </div>
       </div>
 
       <div className="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
-        <div className="grid grid-cols-1 lg:grid-cols-3 gap-6">
+        <div className="grid grid-cols-1 lg:grid-cols-2 gap-6 max-w-3xl mx-auto">
           {tiers.map((tier) => {
             const Icon = tier.icon
             return (
@@ -173,15 +156,15 @@ export default function PricingPage() {
             {[
               {
                 q: 'How long does it take to get listed?',
-                a: 'Free listings go live within 24 hours. Premium and Sponsored listings are reviewed and live within 48 hours.',
+                a: 'Premium and Sponsored listings are reviewed and live within 48 hours of submission.',
               },
               {
                 q: 'Can I upgrade or downgrade my plan?',
                 a: 'Yes — you can upgrade or downgrade at any time. Billing adjusts at the start of your next billing cycle.',
               },
               {
-                q: 'Is my business already listed?',
-                a: "We've pre-listed many Colorado Springs restaurants from public data. Search for your business — if it's there, you can claim and upgrade it.",
+                q: 'Is my business already in the directory?',
+                a: "We've pre-listed many Colorado Springs restaurants from public data. Search for your business — if it's there, you can claim and upgrade it to Premium or Sponsored.",
               },
               {
                 q: 'What payment methods do you accept?',

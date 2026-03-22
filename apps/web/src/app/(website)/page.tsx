@@ -409,15 +409,14 @@ export default async function HomePage() {
           </h2>
           <p className="text-[#8B949E] text-lg mb-8 leading-relaxed">
             Get your business in front of thousands of Colorado Springs diners.
-            Free basic listing. Upgrade to Premium or Sponsored for featured
-            placement.
+            Starting at $99/mo — featured placement, photos, and full business profile.
           </p>
           <div className="flex flex-col sm:flex-row gap-3 justify-center">
             <Link
               href="/add-listing"
               className="inline-flex items-center justify-center gap-2 px-6 py-3.5 bg-[#D4A853] hover:bg-[#E8C97A] text-[#0D1117] font-semibold rounded-xl transition-colors min-h-[52px]"
             >
-              Add Your Business Free
+              Add Your Business
             </Link>
             <Link
               href="/pricing"

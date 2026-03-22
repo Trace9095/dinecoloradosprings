@@ -78,26 +78,20 @@ export function Footer() {
             </h3>
             <ul className="space-y-2">
               <li>
-                <a
-                  href="https://whitewaterbar.com"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="text-[#8B949E] hover:text-[#D4A853] text-sm transition-colors flex items-center gap-1"
+                <Link
+                  href="/partners/whitewater-bar-grill"
+                  className="text-[#8B949E] hover:text-[#D4A853] text-sm transition-colors"
                 >
-                  White Water Bar &amp; Grill
-                  <ExternalLink className="h-3 w-3" />
-                </a>
+                  WhiteWater Bar &amp; Grill
+                </Link>
               </li>
               <li>
-                <a
-                  href="https://wwrooftopsocial.com"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="text-[#8B949E] hover:text-[#D4A853] text-sm transition-colors flex items-center gap-1"
+                <Link
+                  href="/partners/rooftop-social"
+                  className="text-[#8B949E] hover:text-[#D4A853] text-sm transition-colors"
                 >
                   Rooftop Social
-                  <ExternalLink className="h-3 w-3" />
-                </a>
+                </Link>
               </li>
               <li>
                 <a

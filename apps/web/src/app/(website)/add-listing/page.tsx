@@ -29,12 +29,6 @@ const CUISINES = [
 
 const TIERS = [
   {
-    value: 'free',
-    label: 'Free',
-    price: '$0/mo',
-    description: 'Basic listing — name, address, hours',
-  },
-  {
     value: 'premium',
     label: 'Premium',
     price: '$99/mo',
@@ -62,7 +56,7 @@ function AddListingForm() {
     phone: '',
     website: '',
     email: '',
-    tier: searchParams.get('tier') ?? 'free',
+    tier: searchParams.get('tier') ?? 'premium',
     message: '',
   })
 
@@ -88,6 +82,28 @@ function AddListingForm() {
         }),
       })
       if (!res.ok) throw new Error('Submission failed')
+
+      // Redirect to Stripe checkout for paid tiers
+      if (form.tier === 'premium' || form.tier === 'sponsored') {
+        const checkoutRes = await fetch('/api/stripe/checkout', {
+          method: 'POST',
+          headers: { 'Content-Type': 'application/json' },
+          body: JSON.stringify({
+            tier: form.tier,
+            email: form.email,
+            businessName: form.businessName,
+            venueSlug: '',
+          }),
+        })
+        if (checkoutRes.ok) {
+          const data = await checkoutRes.json() as { url?: string }
+          if (data.url) {
+            window.location.href = data.url
+            return
+          }
+        }
+      }
+
       setSubmitted(true)
     } catch {
       setError('Something went wrong. Please try again.')
@@ -323,9 +339,9 @@ export default function AddListingPage() {
             Add Your Business
           </h1>
           <p className="text-[#8B949E]">
-            Get your Colorado Springs restaurant, brewery, or cafe listed in
-            our directory. Free basic listing or choose a premium tier for
-            featured placement.
+            Get your Colorado Springs restaurant, brewery, or cafe featured in
+            our directory. Premium at $99/mo or Sponsored at $199/mo for
+            top placement and maximum visibility.
           </p>
         </div>
       </div>

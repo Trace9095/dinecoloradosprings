@@ -45,7 +45,7 @@ export default function RequestListingPage() {
           </h1>
           <p style={{ color: '#9E9080' }}>
             Thanks! We&apos;ll review your submission and add the listing within 2 business
-            days. Once it&apos;s live, you can claim and upgrade it any time.
+            days. Once it&apos;s live, you can claim it and choose a listing plan.
           </p>
         </div>
       </div>
@@ -70,7 +70,7 @@ export default function RequestListingPage() {
         </h1>
         <p style={{ color: '#9E9080' }} className="text-base leading-relaxed">
           We&apos;re always adding new Colorado Springs restaurants, breweries, and dining
-          spots. Submit the details below and we&apos;ll get it added — free, within 2
+          spots. Submit the details below and we&apos;ll review and get it added within 2
           business days.
         </p>
       </div>
