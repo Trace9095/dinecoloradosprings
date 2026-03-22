@@ -1,34 +1,26 @@
 import { MapPin, ExternalLink } from 'lucide-react'
 
-const DINING_PARTNERS = [
+const DAY_TRIP_SPOTS = [
   {
     name: 'White Water Bar & Grill',
-    url: 'https://whitewaterbar.com',
-    partnerPage: '/partners/whitewater-bar-grill',
-    desc: 'Undefeated Flavors. Legendary Portions. Premier dining on Hwy 50 West.',
+    href: '/partners/whitewater-bar-grill',
+    desc: 'Bold American cuisine & craft cocktails, Hwy 50 West, Cañon City',
     tag: 'Dining',
+    external: false,
   },
-  {
-    name: 'Rooftop Social',
-    url: 'https://wwrooftopsocial.com',
-    partnerPage: '/partners/rooftop-social',
-    desc: 'Downtown Canon City rooftop bar & American cuisine',
-    tag: 'Dining',
-  },
-]
-
-const ADVENTURE_PARTNERS = [
   {
     name: 'Royal Gorge Rafting',
-    url: 'https://royalgorgerafting.net',
+    href: 'https://royalgorgerafting.net',
     desc: 'Class III–V white-water on the Arkansas River',
     tag: 'Adventure',
+    external: true,
   },
   {
-    name: 'Royal Gorge Zipline',
-    url: 'https://royalgorgeziplinetours.com',
-    desc: 'Scenic zipline tours over the Royal Gorge',
+    name: 'Royal Gorge Zipline Tours',
+    href: 'https://royalgorgeziplinetours.com',
+    desc: 'Scenic zipline tours over the Royal Gorge canyon',
     tag: 'Adventure',
+    external: true,
   },
 ]
 
@@ -40,51 +32,44 @@ export function DayTripBanner() {
         borderTop: '1px solid #3A332A',
         borderBottom: '1px solid #3A332A',
       }}
-      className="py-12 px-4"
+      className="py-10 px-4"
     >
       <div className="max-w-5xl mx-auto">
-        <div className="flex items-start gap-3 mb-8">
+        <div className="flex items-start gap-3 mb-6">
           <MapPin
-            size={20}
-            style={{ color: '#D4A853', flexShrink: 0, marginTop: 2 }}
+            size={18}
+            style={{ color: '#D4A853', flexShrink: 0, marginTop: 3 }}
           />
           <div>
             <h2
-              className="text-xl font-bold mb-1"
+              className="text-lg font-bold mb-1"
               style={{ color: '#F0EAE2' }}
             >
-              Worth the Drive — Canon City, CO
+              Worth the Drive — Cañon City, CO
             </h2>
             <p className="text-sm" style={{ color: '#9E9080' }}>
-              Just 1 hour south of Colorado Springs. World-class dining and
-              Royal Gorge adventures await.
+              1 hour south via CO-115 — Royal Gorge dining and adventures
             </p>
           </div>
         </div>
 
-        {/* Dining partners */}
-        <p className="text-xs font-semibold uppercase tracking-wider mb-3" style={{ color: '#D4A853' }}>
-          Featured Dining
-        </p>
-        <div className="grid grid-cols-1 sm:grid-cols-2 gap-3 mb-6">
-          {DINING_PARTNERS.map(site => (
+        <div className="grid grid-cols-1 sm:grid-cols-3 gap-3">
+          {DAY_TRIP_SPOTS.map(site => (
             <a
-              key={site.url}
-              href={site.partnerPage}
-              className="flex items-start justify-between p-4 rounded-lg transition-all group"
+              key={site.href}
+              href={site.href}
+              target={site.external ? '_blank' : undefined}
+              rel={site.external ? 'noopener noreferrer' : undefined}
+              className="flex items-start justify-between p-4 rounded-lg transition-colors group"
               style={{
                 background: '#252118',
-                border: '1px solid #D4A853',
+                border: '1px solid #3A332A',
+                minHeight: '44px',
               }}
             >
               <div className="flex-1 min-w-0">
-                <div className="flex items-center gap-2 mb-1">
-                  <span
-                    className="px-1.5 py-0.5 rounded text-xs font-bold uppercase"
-                    style={{ background: '#D4A853', color: '#0D1117' }}
-                  >
-                    Featured Partner
-                  </span>
+                <div className="text-xs font-medium uppercase tracking-wide mb-1" style={{ color: '#9E9080' }}>
+                  {site.tag}
                 </div>
                 <div className="text-sm font-semibold group-hover:text-[#D4A853] transition-colors" style={{ color: '#F0EAE2' }}>
                   {site.name}
@@ -94,42 +79,8 @@ export function DayTripBanner() {
                 </div>
               </div>
               <ExternalLink
-                size={14}
-                style={{ color: '#D4A853', flexShrink: 0, marginTop: 4, marginLeft: 8 }}
-              />
-            </a>
-          ))}
-        </div>
-
-        {/* Adventure partners */}
-        <p className="text-xs font-semibold uppercase tracking-wider mb-3" style={{ color: '#9E9080' }}>
-          Day Trip Adventures
-        </p>
-        <div className="grid grid-cols-1 sm:grid-cols-2 gap-3">
-          {ADVENTURE_PARTNERS.map(site => (
-            <a
-              key={site.url}
-              href={site.url}
-              target="_blank"
-              rel="noopener noreferrer"
-              className="flex items-start justify-between p-4 rounded-lg transition-colors"
-              style={{
-                background: '#252118',
-                border: '1px solid #3A332A',
-                minHeight: '44px',
-              }}
-            >
-              <div>
-                <div className="text-sm font-medium" style={{ color: '#F0EAE2' }}>
-                  {site.name}
-                </div>
-                <div className="text-xs mt-0.5" style={{ color: '#9E9080' }}>
-                  {site.desc}
-                </div>
-              </div>
-              <ExternalLink
-                size={14}
-                style={{ color: '#9E9080', flexShrink: 0, marginTop: 2 }}
+                size={13}
+                style={{ color: '#9E9080', flexShrink: 0, marginTop: 4, marginLeft: 8 }}
               />
             </a>
           ))}
