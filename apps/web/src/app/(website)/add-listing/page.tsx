@@ -4,6 +4,7 @@ import type { Metadata } from 'next'
 import { useState, useEffect, Suspense } from 'react'
 import { useSearchParams } from 'next/navigation'
 import { CheckCircle, Building2, Send } from 'lucide-react'
+import { trackEvent } from '@/lib/analytics'
 
 const CATEGORIES = [
   { value: 'restaurant', label: 'Restaurant' },
@@ -98,6 +99,7 @@ function AddListingForm() {
         if (checkoutRes.ok) {
           const data = await checkoutRes.json() as { url?: string }
           if (data.url) {
+            trackEvent('claim_listing', { tier: form.tier, city: 'Colorado Springs' })
             window.location.href = data.url
             return
           }

@@ -3,6 +3,7 @@ import { GeistSans } from 'geist/font/sans'
 import { GeistMono } from 'geist/font/mono'
 import { Analytics } from '@vercel/analytics/react'
 import { SpeedInsights } from '@vercel/speed-insights/next'
+import { GoogleAnalytics } from '@/components/GoogleAnalytics'
 import './globals.css'
 
 const APP_NAME = 'Dine Colorado Springs'
@@ -47,6 +48,7 @@ export default function RootLayout({
         className={`${GeistSans.variable} ${GeistMono.variable} bg-[#0D1117] text-[#E6EDF3] antialiased`}
       >
         {children}
+        <GoogleAnalytics />
         <Analytics />
         <SpeedInsights />
       </body>
