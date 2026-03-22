@@ -18,6 +18,7 @@ import {
   Instagram,
 } from 'lucide-react'
 import { categoryLabel, priceLabel, parseFeatures } from '@/lib/utils'
+export const dynamic = 'force-dynamic'
 
 interface PageProps {
   params: Promise<{ slug: string }>

@@ -5,6 +5,7 @@ import { getDb } from '@/lib/db'
 import { blogPosts } from '@/db/schema'
 import { eq } from 'drizzle-orm'
 import { ChevronLeft, Calendar, BookOpen } from 'lucide-react'
+export const dynamic = 'force-dynamic'
 
 interface PageProps {
   params: Promise<{ slug: string }>
