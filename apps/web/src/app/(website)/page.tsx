@@ -3,7 +3,7 @@ import type { Metadata } from 'next'
 import Link from 'next/link'
 import { getDb } from '@/lib/db'
 import { venues, blogPosts } from '@/db/schema'
-import { eq, desc, and, or } from 'drizzle-orm'
+import { eq, desc, and, or, ne } from 'drizzle-orm'
 import { VenueCard } from './_components/venue-card'
 import { DayTripBanner } from './_components/day-trip-banner'
 import {
@@ -115,6 +115,7 @@ export default async function HomePage() {
       .where(
         and(
           eq(venues.active, true),
+          ne(venues.category, 'adventure'),
           or(eq(venues.featured, true), eq(venues.tier, 'sponsored'))
         )
       )

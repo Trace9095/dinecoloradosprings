@@ -1,8 +1,19 @@
+import type { ElementType } from 'react'
 import Link from 'next/link'
 import Image from 'next/image'
-import { MapPin, Clock, TreePine, Music, Star, Tag } from 'lucide-react'
+import { MapPin, Clock, TreePine, Music, Tag, UtensilsCrossed, Beer, Coffee, Truck, Star, Wine } from 'lucide-react'
 import type { Venue } from '@/db/schema'
 import { categoryLabel, priceLabel, parseFeatures } from '@/lib/utils'
+
+const CATEGORY_STYLES: Record<string, { gradient: string; Icon: ElementType }> = {
+  'fine-dining':  { gradient: 'from-[#1a1200] to-[#0D1117]', Icon: Star },
+  'restaurant':   { gradient: 'from-[#0d1a0d] to-[#0D1117]', Icon: UtensilsCrossed },
+  'brewery':      { gradient: 'from-[#12100a] to-[#0D1117]', Icon: Beer },
+  'cafe':         { gradient: 'from-[#0a1212] to-[#0D1117]', Icon: Coffee },
+  'food-truck':   { gradient: 'from-[#0a0d1a] to-[#0D1117]', Icon: Truck },
+  'bar':          { gradient: 'from-[#1a0d0d] to-[#0D1117]', Icon: Wine },
+  'adventure':    { gradient: 'from-[#0d1219] to-[#0D1117]', Icon: UtensilsCrossed },
+}
 
 interface VenueCardProps {
   venue: Venue
@@ -11,6 +22,8 @@ interface VenueCardProps {
 export function VenueCard({ venue }: VenueCardProps) {
   const features = parseFeatures(venue.features)
   const isFeatured = venue.tier === 'sponsored' || venue.tier === 'premium' || venue.featured
+  const fallback = CATEGORY_STYLES[venue.category] ?? CATEGORY_STYLES['restaurant']
+  const FallbackIcon = fallback.Icon
 
   return (
     <div className="group relative bg-[#161B22] border border-[#30363D] rounded-xl overflow-hidden hover:border-[#D4A853]/40 transition-all duration-200 hover:shadow-lg hover:shadow-[#D4A853]/5 flex flex-col">
@@ -26,9 +39,10 @@ export function VenueCard({ venue }: VenueCardProps) {
             quality={90}
           />
         ) : (
-          <div className="w-full h-full flex items-center justify-center bg-gradient-to-br from-[#1C2333] to-[#0D1117]">
-            <span className="text-[#30363D] text-4xl font-bold select-none">
-              {venue.name.charAt(0)}
+          <div className={`w-full h-full flex flex-col items-center justify-center bg-gradient-to-br ${fallback.gradient} gap-2`}>
+            <FallbackIcon className="h-10 w-10 text-[#D4A853]/30" strokeWidth={1.5} />
+            <span className="text-[#30363D] text-xs font-medium tracking-widest uppercase select-none">
+              {categoryLabel(venue.category)}
             </span>
           </div>
         )}

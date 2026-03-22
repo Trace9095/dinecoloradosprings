@@ -41,6 +41,7 @@ async function main() {
           website: venue.website ?? null,
           priceRange: venue.priceRange ?? null,
           hours: venue.hours ?? null,
+          imageUrl: venue.imageUrl ?? null,
           features: venue.features ?? null,
           featured: venue.featured ?? false,
           active: venue.active ?? true,
