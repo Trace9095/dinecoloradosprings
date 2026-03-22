@@ -12,62 +12,139 @@ export default function Image() {
           width: '100%',
           height: '100%',
           display: 'flex',
-          flexDirection: 'column',
-          alignItems: 'center',
-          justifyContent: 'center',
-          background: '#151515',
+          background: 'linear-gradient(160deg, #1A0D07 0%, #0D1117 55%, #0D1117 100%)',
           fontFamily: 'sans-serif',
-          padding: 64,
+          position: 'relative',
         }}
       >
+        {/* Left gold strip */}
         <div
           style={{
-            fontSize: 18,
-            color: '#D4A853',
-            marginBottom: 16,
-            textTransform: 'uppercase',
-            letterSpacing: 3,
+            position: 'absolute',
+            left: 0,
+            top: 0,
+            width: 8,
+            height: 630,
+            background: 'linear-gradient(180deg, transparent 0%, #D4A853 25%, #D4A853 75%, transparent 100%)',
           }}
-        >
-          Dine Colorado Springs
-        </div>
+        />
+
+        {/* Right plate decoration */}
         <div
           style={{
-            fontSize: 52,
-            fontWeight: 700,
-            color: '#F0EAE2',
-            marginBottom: 40,
+            position: 'absolute',
+            right: -80,
+            top: 95,
+            width: 440,
+            height: 440,
+            borderRadius: 220,
+            border: '2px solid rgba(212,168,83,0.18)',
+            display: 'flex',
+            alignItems: 'center',
+            justifyContent: 'center',
           }}
         >
-          List Your Business
+          <div
+            style={{
+              width: 340,
+              height: 340,
+              borderRadius: 170,
+              border: '1px solid rgba(212,168,83,0.10)',
+              display: 'flex',
+              alignItems: 'center',
+              justifyContent: 'center',
+            }}
+          >
+            <div style={{ position: 'relative', width: 90, height: 136, opacity: 0.25 }}>
+              <div style={{ position: 'absolute', left: 0, top: 0, width: 18, height: 48, background: '#D4A853', borderRadius: 9 }} />
+              <div style={{ position: 'absolute', left: 36, top: 0, width: 18, height: 48, background: '#D4A853', borderRadius: 9 }} />
+              <div style={{ position: 'absolute', left: 72, top: 0, width: 18, height: 48, background: '#D4A853', borderRadius: 9 }} />
+              <div style={{ position: 'absolute', left: 0, top: 48, width: 90, height: 12, background: '#D4A853', borderRadius: 4 }} />
+              <div style={{ position: 'absolute', left: 33, top: 60, width: 24, height: 76, background: '#D4A853', borderRadius: 12 }} />
+            </div>
+          </div>
         </div>
-        <div style={{ display: 'flex', gap: 32 }}>
-          {[
-            { name: 'Free', price: '$0' },
-            { name: 'Premium', price: '$99/mo' },
-            { name: 'Sponsored', price: '$199/mo' },
-          ].map(t => (
+
+        {/* Main content */}
+        <div
+          style={{
+            display: 'flex',
+            flexDirection: 'column',
+            justifyContent: 'space-between',
+            padding: '56px 80px 56px 100px',
+            width: 760,
+            height: '100%',
+          }}
+        >
+          {/* Brand label */}
+          <div style={{ display: 'flex', alignItems: 'center', gap: 10 }}>
+            <div style={{ position: 'relative', width: 18, height: 26 }}>
+              <div style={{ position: 'absolute', left: 0, top: 0, width: 3, height: 10, background: '#D4A853', borderRadius: 2 }} />
+              <div style={{ position: 'absolute', left: 7, top: 0, width: 3, height: 10, background: '#D4A853', borderRadius: 2 }} />
+              <div style={{ position: 'absolute', left: 14, top: 0, width: 3, height: 10, background: '#D4A853', borderRadius: 2 }} />
+              <div style={{ position: 'absolute', left: 0, top: 10, width: 17, height: 3, background: '#D4A853', borderRadius: 1 }} />
+              <div style={{ position: 'absolute', left: 5, top: 13, width: 7, height: 13, background: '#D4A853', borderRadius: 3 }} />
+            </div>
+            <div style={{ fontSize: 15, color: '#D4A853', letterSpacing: 5, textTransform: 'uppercase', fontWeight: 600 }}>
+              DINE COLORADO SPRINGS
+            </div>
+          </div>
+
+          {/* Center content */}
+          <div style={{ display: 'flex', flexDirection: 'column' }}>
+            <div style={{ width: 64, height: 3, background: '#D4A853', borderRadius: 2, marginBottom: 28 }} />
+
             <div
-              key={t.name}
               style={{
-                background: '#1E1B18',
-                border: '1px solid #3A332A',
-                borderRadius: 12,
-                padding: '24px 32px',
-                textAlign: 'center',
-                display: 'flex',
-                flexDirection: 'column',
-                alignItems: 'center',
+                fontSize: 64,
+                fontWeight: 800,
+                color: '#F0EAE2',
+                lineHeight: 1.05,
+                letterSpacing: '-1.5px',
+                marginBottom: 20,
               }}
             >
-              <div style={{ fontSize: 24, fontWeight: 700, color: '#D4A853' }}>
-                {t.name}
-              </div>
-              <div style={{ fontSize: 18, color: '#F0EAE2', marginTop: 8 }}>
-                {t.price}
-              </div>
+              List Your<br />Colorado Springs<br />Business
             </div>
-          ))}
+
+            <div style={{ display: 'flex', gap: 16, marginTop: 8 }}>
+              {[
+                { label: 'Premium', price: '$99/mo' },
+                { label: 'Sponsored', price: '$199/mo' },
+              ].map((t) => (
+                <div
+                  key={t.label}
+                  style={{
+                    background: 'rgba(212,168,83,0.12)',
+                    border: '1px solid rgba(212,168,83,0.3)',
+                    borderRadius: 12,
+                    padding: '14px 24px',
+                    display: 'flex',
+                    flexDirection: 'column',
+                    alignItems: 'center',
+                    gap: 4,
+                  }}
+                >
+                  <div style={{ fontSize: 14, fontWeight: 700, color: '#D4A853', letterSpacing: 1 }}>
+                    {t.label}
+                  </div>
+                  <div style={{ fontSize: 20, fontWeight: 800, color: '#F0EAE2' }}>
+                    {t.price}
+                  </div>
+                </div>
+              ))}
+            </div>
+          </div>
+
+          {/* Bottom */}
+          <div style={{ display: 'flex', alignItems: 'center', justifyContent: 'space-between' }}>
+            <div style={{ fontSize: 15, color: '#6B5E50', letterSpacing: 1 }}>
+              dinecoloradosprings.com
+            </div>
+            <div style={{ fontSize: 13, color: '#D4A853', background: 'rgba(212,168,83,0.12)', border: '1px solid rgba(212,168,83,0.3)', borderRadius: 20, padding: '5px 14px', letterSpacing: 1 }}>
+              Colorado Springs, CO
+            </div>
+          </div>
         </div>
       </div>
     ),

@@ -3,7 +3,30 @@
 import { useState } from 'react'
 import Link from 'next/link'
 import { usePathname } from 'next/navigation'
-import { UtensilsCrossed, Menu, X, ChevronDown } from 'lucide-react'
+import { Menu, X } from 'lucide-react'
+
+function ForkMark({ className }: { className?: string }) {
+  return (
+    <svg
+      width="20"
+      height="20"
+      viewBox="0 0 20 20"
+      fill="none"
+      aria-hidden="true"
+      className={className}
+      style={{ flexShrink: 0 }}
+    >
+      {/* 3 tines */}
+      <rect x="2" y="1.5" width="2.5" height="8.5" rx="1.25" fill="currentColor" />
+      <rect x="7.5" y="1.5" width="2.5" height="8.5" rx="1.25" fill="currentColor" />
+      <rect x="13" y="1.5" width="2.5" height="8.5" rx="1.25" fill="currentColor" />
+      {/* Bridge */}
+      <rect x="2" y="10" width="13.5" height="2.5" rx="1.25" fill="currentColor" />
+      {/* Handle */}
+      <rect x="6.25" y="12.5" width="5.5" height="6.5" rx="2.75" fill="currentColor" />
+    </svg>
+  )
+}
 
 const navLinks = [
   { href: '/restaurants', label: 'Restaurants' },
@@ -27,12 +50,26 @@ export function Header() {
         {/* Logo */}
         <Link
           href="/"
-          className="flex items-center gap-2 text-[#D4A853] font-bold text-lg hover:text-[#E8C97A] transition-colors"
+          className="flex items-center gap-2.5 text-[#D4A853] hover:text-[#E8C97A] transition-colors"
           onClick={() => setOpen(false)}
         >
-          <UtensilsCrossed className="h-5 w-5 flex-shrink-0" />
-          <span className="hidden sm:block">Dine Colorado Springs</span>
-          <span className="sm:hidden">Dine COS</span>
+          <ForkMark />
+          {/* Desktop wordmark */}
+          <span className="hidden sm:flex items-baseline gap-1.5 leading-none">
+            <span style={{ fontWeight: 800, fontSize: '1rem', letterSpacing: '0.07em' }}>
+              DINE
+            </span>
+            <span style={{ fontWeight: 400, fontSize: '0.8rem', letterSpacing: '0.04em', opacity: 0.75 }}>
+              Colorado Springs
+            </span>
+          </span>
+          {/* Mobile abbreviated */}
+          <span
+            className="sm:hidden"
+            style={{ fontWeight: 800, fontSize: '0.95rem', letterSpacing: '0.07em' }}
+          >
+            DINE COS
+          </span>
         </Link>
 
         {/* Desktop nav */}
