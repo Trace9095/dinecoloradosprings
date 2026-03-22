@@ -83,7 +83,7 @@ const faqJsonLd = `{
       "name": "What are the best restaurants in Colorado Springs?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Colorado Springs has an incredible dining scene anchored by The Broadmoor's award-winning restaurants including The Penrose Room — Colorado's only AAA Five Diamond restaurant. Top local favorites include Shuga's Social House for creative American cuisine, Brother Luck Street Eats for farm-to-table dining, and Craftwood Inn in Manitou Springs for Colorado game."
+        "text": "Colorado Springs has an incredible dining scene anchored by The Broadmoor's award-winning restaurants including The Penrose Room — Colorado's only AAA Five Diamond restaurant. Top local favorites include Shuga's Social House for creative American cuisine, Four by Brother Luck for award-winning farm-to-table dining, and Craftwood Inn in Manitou Springs for Colorado game."
       }
     },
     {
@@ -91,7 +91,7 @@ const faqJsonLd = `{
       "name": "Where are the best craft breweries in Colorado Springs?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Bristol Brewing Company in the historic Ivywild School is the city's most beloved brewery. Phantom Canyon Brewing Co anchors downtown in a stunning 1901 building with a rooftop bar and legendary happy hours. Trinity Brewing is nationally known for wild ales and sours. Other top picks include Cerberus Brewing, Goat Patch Brewing, Red Leg Brewing, and Gold Camp Brewing in Old Colorado City."
+        "text": "Bristol Brewing Company in the historic Ivywild School is the city's most beloved brewery. Phantom Canyon Brewing Co anchors downtown in a stunning 1901 building with a rooftop bar and legendary happy hours. Trinity Brewing is nationally known for wild ales and sours. Other top picks include Cerberus Brewing, Goat Patch Brewing, Red Leg Brewing, and Pikes Peak Brewing in Monument."
       }
     },
     {

@@ -41,7 +41,7 @@ No fine dining conversation about Colorado Springs is complete without The Broad
 
 ### Downtown Colorado Springs
 
-Downtown has transformed into a genuine dining destination. **Brother Luck Street Eats** (315 E Pikes Peak Ave) is helmed by Top Chef alum Chef Brother Luck and represents farm-to-table dining at its most dynamic. The seasonally changing menu draws from global street food traditions while using Colorado-grown ingredients. Reservations recommended but walk-ins often available at the bar.
+Downtown has transformed into a genuine dining destination. **Four by Brother Luck** (321 N Tejon St) is helmed by Top Chef alum Chef Brother Luck and represents farm-to-table dining at its most dynamic. The seasonally changing menu celebrates the ingredients and cultures of the Four Corners region — Colorado, Utah, New Mexico, and Arizona. Consistently rated among Colorado's finest restaurants. Reservations recommended.
 
 **Jack Quinn Irish Pub** (21 S Tejon St) does the Irish pub right: authentic shepherd's pie, Guinness beef stew, fish and chips, and 20 draft beers. The legendary happy hours (Mon–Fri, 4–7 PM) and weekend live Celtic music make it an essential downtown stop.
 
@@ -49,9 +49,7 @@ Downtown has transformed into a genuine dining destination. **Brother Luck Stree
 
 ### Old Colorado City
 
-The historic arts district west of downtown harbors some of the city's most charming restaurants. **Senor Pepper's Mexican Grill** has been serving the neighborhood for decades with margaritas that require no menu add-ons and chile verde that locals would travel for. The patio along Colorado Avenue is summer dining at its finest.
-
-**Pizzeria Rustica** (2527 W Colorado Ave) fires Neapolitan-style pizzas from a wood-burning oven using imported Italian flour and San Marzano tomatoes. The space is small and intimate; the patio garden is lovely; the wait is worth it.
+The historic arts district west of downtown harbors some of the city's most charming restaurants. **Pizzeria Rustica** (2527 W Colorado Ave) fires Neapolitan-style pizzas from a wood-burning oven using imported Italian flour and San Marzano tomatoes. The space is small and intimate; the patio garden is lovely; the wait is worth it.
 
 **Edelweiss** has been serving authentic German cuisine since 1961 — schnitzel, sauerbraten, bratwurst — in a beloved Old Colorado City setting. The Oktoberfest celebrations and polka nights are Colorado Springs dining lore.
 
@@ -65,7 +63,7 @@ For a more complete rundown, see our [Craft Brewery Guide](/blog/craft-breweries
 
 **Neighborhoods to explore:** Downtown (Tejon Street corridor), Old Colorado City (Colorado Avenue), Academy Boulevard corridor, and the Broadmoor area each have distinct dining personalities worth exploring separately.
 
-**Reservations:** Essential at The Broadmoor restaurants, Craftwood Inn, and Shuga's. Recommended at Brother Luck, The Famous Steakhouse, and Edelweiss. Walk-ins typically work at breweries, casual spots, and diners.
+**Reservations:** Essential at The Broadmoor restaurants, Craftwood Inn, and Shuga's. Recommended at Four by Brother Luck, The Famous Steakhouse, and Edelweiss. Walk-ins typically work at breweries, casual spots, and diners.
 
 **Seasonal note:** Colorado Springs dining is year-round, but summer and fall bring the best patio weather. Many restaurants add seasonal specials showcasing Colorado's agricultural peak (June–October).
 
@@ -133,18 +131,6 @@ Red Leg honors the soldiers of Fort Carson and the U.S. Army with a military-the
 
 **Address:** 4630 Forge Rd | **Hours:** Mon–Thu 2 PM–9 PM, Fri 12 PM–10 PM, Sat 11 AM–10 PM, Sun 11 AM–8 PM
 
-### Gold Camp Brewing Company
-
-Tucked into the heart of Old Colorado City's Colorado Avenue arts district, Gold Camp draws inspiration from the area's gold rush history. Their approachable lineup of ales and lagers pairs naturally with the neighborhood's gallery-hopping culture. The patio is ideal for summer afternoons.
-
-**Address:** 2625 W Colorado Ave | **Hours:** Mon–Thu 3 PM–9 PM, Fri 2 PM–10 PM, Sat 12 PM–10 PM, Sun 12 PM–8 PM
-
-### Metric Brewing
-
-Metric is the newcomer with a design-conscious aesthetic and a serious hop program. Their downtown taproom features rotating art installations and a sleek visual identity that sets them apart. IPAs and lagers drive the regular lineup; seasonals push boundaries.
-
-**Address:** 831 Arcturus Dr | **Hours:** Wed–Thu 3 PM–9 PM, Fri 2 PM–10 PM, Sat 12 PM–10 PM, Sun 12 PM–7 PM
-
 ## Tips for Your Colorado Springs Brewery Tour
 
 **Start at Bristol, anchor at Phantom Canyon.** These two breweries represent the history and heart of Colorado Springs craft beer and are required visits.
@@ -196,12 +182,6 @@ Jack Quinn's patio faces a quiet block of Tejon Street and benefits from a heate
 Bristol's patio at the Ivywild School complex is an institution in its own right. Expansive, dog-friendly, and shaded by mature trees, it's the kind of place where you accidentally spend an entire Sunday afternoon. The surrounding Ivywild complex (bookstore, coffee shop) adds to the atmosphere of a true community gathering place.
 
 **Address:** 1604 S Cascade Ave | Patio type: Large dog-friendly beer garden
-
-### Gold Camp Brewing Company — Old Colorado City
-
-Gold Camp's covered patio along Colorado Avenue in Old Colorado City captures the artistic, community spirit of the neighborhood perfectly. The combination of neighborhood foot traffic, craft beers, and occasional live music makes it a particularly pleasant summer destination.
-
-**Address:** 2625 W Colorado Ave | Patio type: Covered, street-adjacent
 
 ### Cerberus Brewing Company — North Springs
 
@@ -275,12 +255,6 @@ Best order: A pint of Guinness and a plate of fish and chips, or the shepherd's 
 
 **Hours:** Mon–Fri 4:00–7:00 PM
 
-### Machete's House of Knives
-
-Machete's runs downtown happy hour specials on margaritas and Mexican craft beers on weekday afternoons. The combination of lively atmosphere, bold flavors, and discounted agave cocktails makes for an energetic end-of-day stop.
-
-**Hours:** Mon–Fri 3:00–6:00 PM
-
 ### Cowboys
 
 Cowboys offers happy hour pricing across their expansive bar, with discounts on domestic and craft drafts and well drinks. As a large entertainment venue, the happy hour crowd is lively and the atmosphere is social.
@@ -289,11 +263,11 @@ Cowboys offers happy hour pricing across their expansive bar, with discounts on 
 
 ## Happy Hours with Food Deals
 
-### Brother Luck Street Eats
+### Four by Brother Luck
 
-Brother Luck offers a bar menu and limited happy hour pricing at the restaurant bar. Given the quality of the kitchen, this is one of the better value propositions downtown — farm-to-table small plates at reduced prices.
+Four by Brother Luck offers a bar menu and limited happy hour pricing at the restaurant bar. Given the quality of Top Chef alum Chef Brother Luck's kitchen, this is one of the better value propositions downtown — Four Corners-inspired small plates at reduced prices.
 
-**Hours:** Tue–Sat 3:00–5:00 PM (bar seating)
+**Hours:** Tue–Sat 4:00–5:00 PM (bar seating)
 
 ### Shuga's Social House
 
@@ -371,11 +345,11 @@ A Colorado Springs institution since 1959, The Famous occupies a downtown art de
 
 ## Farm-to-Table and Contemporary Dining
 
-### Brother Luck Street Eats
+### Four by Brother Luck
 
-Chef Brother Luck — best known from multiple Top Chef appearances — runs the most adventurous kitchen in downtown Colorado Springs. Street food traditions from around the world inform dishes that use Colorado ingredients as their foundation. The restaurant operates as a casual bistro by day and elevates in the evening, but the food quality and ambition remain consistently high.
+Chef Brother Luck — best known from multiple Top Chef appearances — runs the most adventurous kitchen in downtown Colorado Springs. Four by Brother Luck celebrates the ingredients and cultures of the Four Corners region (Colorado, Utah, New Mexico, and Arizona), using Colorado-grown products as the foundation for seasonally inspired menus. Consistently rated among Colorado's finest restaurants.
 
-**Brother Luck Street Eats** | 315 E Pikes Peak Ave | 719.955.7510 | Tue–Sat 11 AM–9 PM
+**Four by Brother Luck** | 321 N Tejon St | 719.434.2741 | Tue–Sat 5 PM–10 PM
 
 ## Nearby: Canon City Fine Dining
 
@@ -391,7 +365,7 @@ Just 1 hour south of Colorado Springs via CO-115, Canon City has its own excelle
 | Craftwood Inn | 1 week | Request window table |
 | Shuga's | 2–3 days | Walk-ins often available |
 | The Famous Steakhouse | 1–3 days | Bar seating walk-in friendly |
-| Brother Luck | Same week | Bar seating walk-in |
+| Four by Brother Luck | Same week | Bar seating walk-in |
 
 Colorado Springs' fine dining scene rewards advance planning — particularly at The Broadmoor — but the independent restaurants are generally more accessible. Go for both.`,
     imageUrl: null,
@@ -564,7 +538,7 @@ Saturday dinner in downtown Colorado Springs has no bad options. These are the b
 
 **Shuga's Social House** (702 S Cascade Ave) is the city's most creative kitchen — globally inspired American cuisine in an art-filled, courtyard-patio setting. The menu draws from Southeast Asia, the American South, Mexico, and the Mediterranean in a way that reflects genuine culinary curiosity. Reservations recommended. This is the best dinner in Colorado Springs.
 
-**Brother Luck Street Eats** (315 E Pikes Peak Ave) is helmed by multiple Top Chef alum Chef Brother Luck and delivers farm-to-table dining at its most dynamic. The seasonally changing menu uses Colorado-grown ingredients as its foundation. An excellent choice if Shuga's is full.
+**Four by Brother Luck** (321 N Tejon St) is helmed by Top Chef alum Chef Brother Luck and delivers farm-to-table dining at its most dynamic. The seasonally changing menu celebrates Four Corners ingredients and culture. Consistently rated among Colorado's best. An excellent choice if Shuga's is full.
 
 **The Famous Steakhouse** (31 N Tejon St) has anchored downtown since 1959 — prime cuts, tableside preparations, classic cocktails, and the kind of Old World service style that's increasingly rare. For a celebratory dinner, it's perfect.
 
