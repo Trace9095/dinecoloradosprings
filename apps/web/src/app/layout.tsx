@@ -29,6 +29,9 @@ export const metadata: Metadata = {
     description: APP_DESCRIPTION,
   },
   robots: { index: true, follow: true },
+  verification: {
+    google: process.env.NEXT_PUBLIC_GOOGLE_SITE_VERIFICATION,
+  },
 }
 
 export const viewport: Viewport = {
