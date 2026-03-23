@@ -246,7 +246,7 @@ export default function ManagePage() {
                   </div>
                 </div>
 
-                {/* Upgrade prompt for free tier */}
+                {/* Upgrade prompt for basic tier */}
                 {result.tier === 'free' && (
                   <div
                     className="rounded-xl p-5"
@@ -256,7 +256,7 @@ export default function ManagePage() {
                       Get featured placement
                     </h3>
                     <p className="text-xs mb-3" style={{ color: '#9E9080' }}>
-                      Premium listings appear above free listings in search results and category pages. Starting at $99/mo.
+                      Upgrade to Premium for featured placement in search results and category pages. Starting at $99/mo.
                     </p>
                     <Link
                       href="/pricing"
