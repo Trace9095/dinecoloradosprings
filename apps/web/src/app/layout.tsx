@@ -4,6 +4,7 @@ import { GeistMono } from 'geist/font/mono'
 import { Analytics } from '@vercel/analytics/react'
 import { SpeedInsights } from '@vercel/speed-insights/next'
 import Script from 'next/script'
+import { CookieConsent } from '@/components/cookie-consent'
 import './globals.css'
 
 const APP_NAME = 'Dine Colorado Springs'
@@ -74,6 +75,7 @@ export default function RootLayout({
         <main id="main-content">{children}</main>
         <Analytics />
         <SpeedInsights />
+        <CookieConsent />
       </body>
     </html>
   )
