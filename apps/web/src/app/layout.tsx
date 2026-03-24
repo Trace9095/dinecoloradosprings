@@ -23,11 +23,13 @@ export const metadata: Metadata = {
     title: APP_NAME,
     description: APP_DESCRIPTION,
     url: APP_URL,
+    images: [{ url: '/opengraph-image', width: 1200, height: 630, alt: APP_NAME }],
   },
   twitter: {
     card: 'summary_large_image',
     title: APP_NAME,
     description: APP_DESCRIPTION,
+    images: ['/opengraph-image'],
   },
   robots: { index: true, follow: true },
   verification: {
