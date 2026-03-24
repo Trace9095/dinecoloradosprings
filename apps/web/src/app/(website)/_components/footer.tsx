@@ -131,7 +131,24 @@ export function Footer() {
           </div>
         </div>
 
-        <div className="mt-10 pt-6 border-t border-[#30363D] flex flex-col sm:flex-row items-center justify-between gap-4">
+        {/* Also Explore — Colorado Springs */}
+        <div className="mt-10 pb-6">
+          <p className="text-[#6B7280] text-xs uppercase tracking-wider font-medium mb-3">
+            Also Explore Colorado Springs
+          </p>
+          <div className="flex flex-wrap gap-x-6 gap-y-2">
+            <a
+              href="https://visitcoloradosprings.co"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="text-[#8B949E] text-sm hover:text-[#D4A853] transition-colors"
+            >
+              Visit Colorado Springs
+            </a>
+          </div>
+        </div>
+
+        <div className="pt-6 border-t border-[#30363D] flex flex-col sm:flex-row items-center justify-between gap-4">
           <p className="text-[#8B949E] text-xs">
             &copy; {new Date().getFullYear()} Dine Colorado Springs. All rights
             reserved.

@@ -62,6 +62,12 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
       changeFrequency: 'monthly',
       priority: 0.5,
     },
+    {
+      url: `${base}/manage`,
+      lastModified: new Date(),
+      changeFrequency: 'monthly' as const,
+      priority: 0.4,
+    },
   ]
 
   let venueRoutes: MetadataRoute.Sitemap = []
