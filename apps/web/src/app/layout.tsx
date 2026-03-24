@@ -68,7 +68,10 @@ export default function RootLayout({
       <body
         className={`${GeistSans.variable} ${GeistMono.variable} bg-[#0D1117] text-[#E6EDF3] antialiased`}
       >
-        {children}
+        <a href="#main-content" className="skip-to-content">
+          Skip to main content
+        </a>
+        <main id="main-content">{children}</main>
         <Analytics />
         <SpeedInsights />
       </body>
