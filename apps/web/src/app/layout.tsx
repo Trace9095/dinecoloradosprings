@@ -1,9 +1,8 @@
 import type { Metadata, Viewport } from 'next'
 import { GeistSans } from 'geist/font/sans'
 import { GeistMono } from 'geist/font/mono'
-import { Analytics } from '@vercel/analytics/react'
-import { SpeedInsights } from '@vercel/speed-insights/next'
-import Script from 'next/script'
+import { GoogleAnalytics } from '@/components/GoogleAnalytics'
+import { ConsentAwareAnalytics } from '@/components/ConsentAwareAnalytics'
 import { CookieConsent } from '@/components/cookie-consent'
 import './globals.css'
 
@@ -71,25 +70,9 @@ export default function RootLayout({
           Skip to main content
         </a>
         <main id="main-content">{children}</main>
-        <Analytics />
-        <SpeedInsights />
+        <GoogleAnalytics />
+        <ConsentAwareAnalytics />
         <CookieConsent />
-        {process.env.NEXT_PUBLIC_GA_MEASUREMENT_ID && (
-          <>
-            <Script
-              src={`https://www.googletagmanager.com/gtag/js?id=${process.env.NEXT_PUBLIC_GA_MEASUREMENT_ID}`}
-              strategy="afterInteractive"
-            />
-            <Script id="gtag-init" strategy="afterInteractive">
-              {`
-                window.dataLayer = window.dataLayer || [];
-                function gtag(){dataLayer.push(arguments);}
-                gtag('js', new Date());
-                gtag('config', '${process.env.NEXT_PUBLIC_GA_MEASUREMENT_ID}');
-              `}
-            </Script>
-          </>
-        )}
       </body>
     </html>
   )
